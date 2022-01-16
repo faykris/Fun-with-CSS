@@ -27,7 +27,7 @@
 
 .toggle-switch {
   position: relative;
-  width: 80px; /* 50px */
+  width: 80px; 
   height: 26px; 
   border-radius: 15px;
   background: #ebebeb;
@@ -41,10 +41,10 @@
 }
 
 .toggle-switch::before {
-    left: -2px;   /* 1px */
-    top: -4px;   /* 1px */
-    width: 32px; /* 24px */
-    height: 32px; /* 24px */
+    left: -2px; 
+    top: -4px;   
+    width: 32px; 
+    height: 32px; 
     background: white;
     border-radius: 50%;
     z-index: 1;
@@ -67,7 +67,7 @@
 }
 
 .toggle [type="checkbox"]:checked + .toggle-label .toggle-switch::before {
-    transform: translateX(50px); /* 24px */
+    transform: translateX(50px);
 }
 
 .toggle [type="checkbox"]:checked + .toggle-label .toggle-switch::after {
